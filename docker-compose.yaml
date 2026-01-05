@@ -1,0 +1,13 @@
+services:
+  react_app:
+    container_name: react_c
+    volumes:
+      - .:/app:Z
+      - /app/node_modules
+    ports:
+      - 5173:5173
+    build: 
+      dockerfile: Dockerfile
+      context: .
+    tty: true
+    stdin_open: true
