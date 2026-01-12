@@ -1,5 +1,5 @@
 import type { ComponentType, JSX, SVGProps } from "react";
-import styles from "@/components/menuButton/MenuButton.module.css";
+import styles from "@/components/menu/menuButton/MenuButton.module.css";
 
 type MenuButtonProps = {
     icon: ComponentType<SVGProps<SVGSVGElement>>,

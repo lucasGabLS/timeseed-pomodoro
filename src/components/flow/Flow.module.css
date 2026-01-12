@@ -1,0 +1,27 @@
+.flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.flow ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flow li {
+    padding: 1.6rem;
+    background-color: var(--gray-800);
+    transition: all 0.2s ease-in;
+}
+
+.flow li:hover {
+    transform: scale(104%);
+    transform: translateY(-0.4rem);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
+    background-color: var(--gray-700);
+}

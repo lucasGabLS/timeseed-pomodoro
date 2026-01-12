@@ -5,6 +5,7 @@ import Container from "@/components/container/Container";
 import Logo from "@/components/logo/Logo";
 import Menu from "@/components/menu/Menu";
 import Timer from "@/components/timer/Timer";
+import Form from "@/components/form/Form";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
 		</Container>
 		<Container>
 			<Timer />
+		</Container>
+		<Container>
+			<Form />
 		</Container>
     </>
   );
