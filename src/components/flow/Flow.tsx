@@ -5,13 +5,12 @@ import StageIcon from "@/components/flow/stageIcon/StageIcon";
 export default function Flow(): JSX.Element {
     return (
         <div className={styles.flow}>
-            <ul>
-                <li><StageIcon side="moon" isDone /></li>
-                <li><StageIcon side="sun" isDone /></li>
-                <li><StageIcon side="moon" /></li>
-                <li><StageIcon side="sun" /></li>
-                <li><StageIcon side="moon" /></li>
-                <li><StageIcon side="sun" /></li>
+            <ul className={styles.flowBar}>
+                <li className={styles.flowBarStageIcon}><StageIcon side="moon" isDone /></li>
+                <li className={styles.flowBarStageIcon}><StageIcon side="sun" isDone /></li>
+                <li className={styles.flowBarStageIcon}><StageIcon side="moon" /></li>
+                <li className={styles.flowBarStageIcon}><StageIcon side="sun" /></li>
+                <li className={styles.flowBarStageIcon}><StageIcon side="moon" /></li>
             </ul>
         </div>
     );
